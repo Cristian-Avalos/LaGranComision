@@ -1,0 +1,161 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+.main{
+    padding-top: 3.7rem;
+}
+
+.header{
+    background: #0000ff;
+    color: white;
+    padding: 0rem 0;
+    padding-right: 30px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 2000;
+}
+
+.header2{
+    background: rgb(0, 0, 255, 0.6);
+    color: white;
+    padding: 0rem 0;
+    padding-right: 30px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 2000;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logohead{
+    padding-left: 30px;
+    padding-top: 2px;
+    height: 60px;
+    width: 500px;
+
+}
+
+.menu-icon{
+    display: none;
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 1rem 1rem;
+    transition: all 0.4s linear;
+}
+
+.navigation ul li:hover {
+    background: #000088;
+}
+
+@media only screen and (max-width: 935px){
+
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+        padding: 1rem 1rem;
+    }
+        
+    .navigation{
+        width: 100%;
+    }
+    .navigation ul{
+        display: none;
+    }
+
+    .navigation ul.show{
+        display: block;
+    }
+
+    .navigation ul li{
+        display: block;
+    }
+
+    .navigation ul li a{
+        display: block;
+        padding: 0.5rem 1rem;
+        transition: all 0.4s linear;
+    }
+
+    .navigation ul li a:hover {
+        background: #3118a0;
+    }
+}
+
+@media only screen and (max-width: 595px){
+    .logohead{
+        padding-left: 30px;
+        height: 40px;
+        width: 400px;
+    }
+
+    .main{
+        padding-top: 3.5rem;
+    }
+}
+
+@media only screen and (max-width: 495px){
+    .logohead{
+        padding-left: 30px;
+        height: 30px;
+        width: 300px;
+    }
+
+    .main{
+        padding-top: 3.5rem;
+    }
+}
+
+@media only screen and (max-width: 395px){
+    .logohead{
+        padding-left: 30px;
+        height: 25px;
+        width: 200px;
+    }
+
+    .main{
+        padding-top: 3.5rem;
+    }
+}
+
+@media only screen and (max-width: 295px){
+    .logohead{
+        padding-left: 30px;
+        height: 15px;
+        width: 100px;
+    }
+
+    .main{
+        padding-top: 3.5rem;
+    }
+}

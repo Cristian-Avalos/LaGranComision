@@ -1,0 +1,198 @@
+/* 
+.contenedor-contacto{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 900px;
+    padding-top: 10px; */
+    /* padding-left: 30px; */
+    /* border: 5px solid blue; */
+    /* text-align: center;
+} */
+/* 
+.titulo-contacto{
+    color:rgb(255, 255, 255);
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: red;
+}
+
+.contacto-center .avatar img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 2%;
+    object-fit: cover;
+    object-position: 1 -1px;
+}
+
+.contacto-center{
+    width: 24%;
+    background-color: rgb(0, 0, 255);
+    height: 250px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 45px;
+}
+
+.content {
+    padding: 15px;
+}
+
+.Nombre {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.content p {
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: 15px;
+    letter-spacing: 1px;
+    width: 100%;
+    margin: 1px auto;
+} */
+
+/* .content h2 {
+    font-weight: 200;
+}
+
+.content h3 {
+    margin-top: 20px;
+} */
+/* 
+div.social{
+    padding-bottom: 5px;
+}
+
+div.social i {
+    padding: 0 10px;
+    font-size: 25px;
+    color: rgba(255, 255, 255);
+    transition: 0.4s;
+}
+
+.social p {
+    font-size: 20px;
+    color: rgba(255, 255, 255);
+}
+
+div.social i:hover {
+    color: rgba(255, 255, 255, 0.5);
+} */
+
+
+
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+.team{
+    text-align: center;
+}
+
+.team .member {
+    text-align: center;
+    margin-bottom: 80px;
+    position: relative;
+  }
+  
+  .team .member .pic {
+    overflow: hidden;
+  }
+  
+  .team .member .member-info {
+    position: absolute;
+    top: 85%;
+    left: 20px;
+    right: 20px;
+    background: #fff;
+    padding: 20px 0;
+    color: #2f4d5a;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    max-height: 95px;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+    
+  }
+  
+  .team .member:hover .member-info {
+    max-height: 300px;
+  }
+  
+  .team .member h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #2f4d5a;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  
+  .team .member h4::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #b1cbd7;
+    bottom: 0;
+    left: calc(50% - 25px);
+  }
+  
+  .team .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+  }
+  
+  .team .member .social {
+    margin-top: 15px;
+  }
+  
+  .team .member .social a {
+    transition: color 0.3s;
+    color: #5a529d;
+  }
+  
+  .team .member .social a:hover {
+    color: #67b0d1;
+  }
+  
+  .team .member .social i {
+    font-size: 16px;
+    margin: 0 2px;
+  }
+
+  #DirectivaHeader {
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 50px;
+ }
+  
+  @media (max-width: 992px) {
+    .team .member {
+      margin-bottom: 110px;
+    }
+    #DirectivaHeader {
+        font-size: 30px;
+     }
+  }
+
+/* a {
+    text-decoration: none;
+    color: #67b0d1;
+  }
+  
+  a:hover {
+    color: #8ec4dd;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+  } */
+  
